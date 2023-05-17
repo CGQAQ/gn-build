@@ -1,4 +1,5 @@
 # how-to-gn
 
 ## Official refrence
-[https://gn.googlesource.com/gn/+/main/docs/reference.md](https://gn.googlesource.com/gn/+/main/docs/reference.md)
+[The reference](https://gn.googlesource.com/gn/+/main/docs/reference.md)
+[The repo](https://gn.googlesource.com/gn/)
