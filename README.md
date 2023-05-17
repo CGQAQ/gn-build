@@ -11,9 +11,22 @@
 ```console
 git clone --recurse-submodules git@github.com:CGQAQ/how-to-gn.git
 # git clone --recurse-submodules https://github.com/CGQAQ/how-to-gn.git
-cd how-to-gn
-# build ninja & gn
-python3 build-tools.py
+
+# On Windows
 # run gn
-python3 gn.py gnargs...
+python gn.py ...gnargs
+# run ninja
+python ninja.py ...ninjaargs
+
+# On nonWindows
+# run gn
+python3 gn.py ...gnargs
+# run ninja
+python3 ninja.py ...ninjaargs
+# ------------- OR ---------------
+chmod +x ./gn.py ./ninja.py
+# run gn
+./gn.py ...gnargs
+# run ninja
+./ninja.py ...ninjaarg
 ```
