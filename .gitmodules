@@ -1,3 +1,6 @@
 [submodule "tools/gn"]
 	path = tools/gn
 	url = https://gn.googlesource.com/gn
+[submodule "tools/ninja"]
+	path = tools/ninja
+	url = https://github.com/ninja-build/ninja.git
