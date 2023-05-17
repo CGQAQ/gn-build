@@ -1,0 +1,13 @@
+toolchain("msvc") {
+  tool("cxx") {
+    command = "cl.exe /c {{source}} /Fo{{output}}"
+    outputs = [ "{{source_out_dir}}/{{source_name_part}}.obj" ]
+    description = "Compiling {{source}}..."
+  }
+
+  tool("link") {
+    command = "link.exe {{inputs}} /OUT:{{output}}"
+    outputs = [ "{{root_out_dir}}/{{target_output_name}}.exe" ]
+    description = "Linking {{output}}..."
+  }
+}

@@ -1,6 +1,3 @@
-import("//toolchain.gni")
-set_default_toolchain("//toolchain:msvc")
-
 executable("hello_world") {
     sources = ["main.cpp"]
     output_name = "hello_world"
