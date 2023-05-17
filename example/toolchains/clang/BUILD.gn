@@ -1,0 +1,13 @@
+toolchain("clang") {
+  tool("cxx") {
+    command = "clang++ -c {{source}} -o {{output}}"
+    outputs = [ "{{source_out_dir}}/{{source_name_part}}.o" ]
+    description = "Compiling {{source}}..."
+  }
+
+  tool("link") {
+    command = "clang++ {{inputs}} -o {{output}}"
+    outputs = [ "{{root_out_dir}}/{{target_output_name}}" ]
+    description = "Linking {{output}}..."
+  }
+}
