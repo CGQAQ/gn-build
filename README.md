@@ -1,4 +1,5 @@
-# how-to-gn
+# gn-build
+Build the latest & best `GN-build-system` and `ninja` from source, and give you the wrapper to call it
 
 ## Official refrence
 - [The reference](https://gn.googlesource.com/gn/+/main/docs/reference.md)
