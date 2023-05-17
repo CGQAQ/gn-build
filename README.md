@@ -10,8 +10,8 @@ Build the latest & best `GN-build-system` and `ninja` from source, and give you 
 
 ## HOWTO
 ```console
-git clone --recurse-submodules git@github.com:CGQAQ/how-to-gn.git
-# git clone --recurse-submodules https://github.com/CGQAQ/how-to-gn.git
+git clone --recurse-submodules git@github.com:CGQAQ/gn-build.git
+# git clone --recurse-submodules https://github.com/CGQAQ/gn-build.git
 
 # On Windows
 # run gn
