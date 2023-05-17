@@ -4,6 +4,7 @@ Build the latest & greatest `GN-build-system` and `ninja` from source, and give 
 ## Official refrence
 - [The reference](https://gn.googlesource.com/gn/+/main/docs/reference.md)
 - [The repo](https://gn.googlesource.com/gn/)
+- [The presentation](https://docs.google.com/presentation/d/15Zwb53JcncHfEwHpnG_PoIbbzQ3GQi_cpujYwbpcbZo/edit)
 
 ## prerequisites
 - python3
