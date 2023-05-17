@@ -4,6 +4,3 @@
 [submodule "tools/ninja"]
 	path = tools/ninja
 	url = https://github.com/ninja-build/ninja.git
-[submodule "example/build"]
-	path = example/build
-	url = https://chromium.googlesource.com/chromium/src/build
